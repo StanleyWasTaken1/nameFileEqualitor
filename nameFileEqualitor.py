@@ -1,7 +1,7 @@
 
 import os
 
-path = '/home/cechstanislav/scraping/scrapy/projects/realestate/realestate/spiders'
+path = '/scraping/scrapy/projects/realestate/realestate/spiders'
 for file in os.listdir(path):
     if file.endswith('.py'):
         file_path = os.path.join(path, file)
